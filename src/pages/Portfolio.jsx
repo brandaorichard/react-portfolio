@@ -1,40 +1,30 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import proj1 from "../assets/images/proj9.png";
-import proj2 from "../assets/images/proj11.png";
-import proj3 from "../assets/images/proj12.png";
+import spotify from "../assets/images/spotify.png";
+import weatherapp from "../assets/images/weatherapp.png";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
 
 const projects = [
   {
-    title: "App Example 01",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Spotify Clone App",
+    desc: "Full Stack Spotify Clone: NextJS, React, Stripe, Supabase, PostgreSQL, Tailwind",
     devstack: "MongoDB, Express, React, Node.js",
-    link: "#",
-    git: "#",
-    src: proj1,
-    type: "fullstack",
+    link: "https://vercel.com/meuapp",
+    git: "https://github.com/brandaorichard/Fullstack-Spotify-Clone",
+    src: spotify,
+    type: "FullStack",
   },
   {
-    title: "App Example 02",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    devstack: "NextJs",
+    title: "Weather App 🌤️",
+    desc: "Weather App simples utilizando HTML, CSS e JavaScript. Consome a API do OpenWeatherMap para exibir temperatura, umidade e velocidade do vento de qualquer cidade pesquisada.",
+    devstack: "HTML, CSS, JavaScript",
     link: "#",
-    git: "#",
-    src: proj2,
-    type: "frontend",
-  },
-  {
-    title: "App Example 03",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    devstack: "React, Tailwind",
-    link: "#",
-    git: "#",
-    src: proj3,
-    type: "frontend",
+    git: "https://github.com/brandaorichard/weather-app",
+    src: weatherapp,
+    type: "Frontend",
   },
 ];
 
@@ -49,7 +39,7 @@ export const Portfolio = () => {
     <div className="text-white py-24 md:py-64" id="portfolio">
       <div className="container mx-auto px-4">
         <h2 className="text-6xl font-bold text-center mb-16">
-          Projetos <span className="text-emerald-300">:</span>
+          Projetos
         </h2>
 
         <div className="space-y-8">
