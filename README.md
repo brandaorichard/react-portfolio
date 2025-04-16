@@ -1,13 +1,13 @@
 
-# 🧑‍💻 Portfólio | Ricardo Brandão
+# 🧑‍💻 Portfólio - Ricardo Brandão
 
-Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades técnicas, projetos e trajetória como Desenvolvedor Full Stack.
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades técnicas, projetos e trajetória como Desenvolvedor Full Stack.
 
 ## 📌 Sobre
 
 Este portfólio é uma aplicação web responsiva que destaca:
 
-- Minhas habilidades técnicas (Java, React, Spring, etc.)
+- Minhas habilidades técnicas
 - Projetos desenvolvidos
 - Informações para contato
 - Estilo visual moderno e animado com **Framer Motion** e **Tailwind CSS**
@@ -91,7 +91,7 @@ Este é um projeto pessoal, mas sugestões e melhorias são sempre bem-vindas! A
 
 - 📧 Email: [rbrandao98@hotmail.com](mailto:rbrandao98@hotmail.com)  
 - 📱 WhatsApp: [+55 67 99610-1874](https://wa.me/5567996101874)  
-- 💼 LinkedIn: *em breve*  
+- 💼 LinkedIn: [@ricardo-brandao-dev](https://linkedin.com/in/ricardo-brandao-dev)
 - 💻 GitHub: [@brandaorichard](https://github.com/brandaorichard)  
 - 📸 Instagram: [@brandaojpg](https://instagram.com/brandaojpg)
 
@@ -99,7 +99,8 @@ Este é um projeto pessoal, mas sugestões e melhorias são sempre bem-vindas! A
 
 ## ✨ Inspiração
 
-> “A única maneira de fazer um excelente trabalho é amar o que você faz.” — *Steve Jobs*
+> "O futuro pertence àqueles que acreditam na beleza de seus sonhos."
+*- Eleanor Roosevelt*
 
 ---
 
