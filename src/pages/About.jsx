@@ -84,10 +84,10 @@ export const About = () => {
             em constante evolução, sempre buscando aprender novas ferramentas e
             aperfeiçoar minhas práticas para entregar soluções de qualidade.
           </p>
-          <div className="grid grid-cols-1 text-center gap-4">
+          <div className="grid grid-cols-1 text-left gap-4">
             <div className="border border-white/20 rounded-lg p-3">
               <h4 className="text-emerald-300 font-medium mb-2"></h4>
-              <ul className="text-emerald-300 font-medium mb-2">
+              <ul className="list-disc pl-5 text-emerald-300 font-medium mb-2">
                 <li>Java</li>
                 <li>Spring Stack</li>
                 <li>API RESTful</li>

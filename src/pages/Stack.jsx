@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import {
   SiTailwindcss,
-  SiFigma,
+  // SiFigma,
   SiReact,
   SiNodedotjs,
   SiDocker,
   SiSpringboot,
-  SiGit,
-  SiPostman,
 } from "react-icons/si";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -19,12 +17,12 @@ const stackItems = [
     icon: <SiReact size={100} />,
     color: "text-emerald-400",
   },
-  {
-    id: 2,
-    name: "Figma",
-    icon: <SiFigma size={100} />,
-    color: "text-emerald-400",
-  },
+  // {
+  //   id: 2,
+  //   name: "Figma",
+  //   icon: <SiFigma size={100} />,
+  //   color: "text-emerald-400",
+  // },
   {
     id: 3,
     name: "TailwindCSS",
@@ -47,18 +45,6 @@ const stackItems = [
     id: 6,
     name: "Docker",
     icon: <SiDocker size={100} />,
-    color: "text-emerald-400",
-  },
-  {
-    id: 7,
-    name: "Git/GitHub",
-    icon: <SiGit size={100} />,
-    color: "text-emerald-400",
-  },
-  {
-    id: 8,
-    name: "Postman",
-    icon: <SiPostman size={100} />,
     color: "text-emerald-400",
   },
 ];

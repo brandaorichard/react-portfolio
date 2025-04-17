@@ -1,8 +1,7 @@
 import React from "react";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillFacebook,
+  AiFillLinkedin,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -34,21 +33,34 @@ export const Footer = () => {
                 +55 (67) 99610-1874
               </a>
 
-              <ul className="flex gap-5 flex-wrap">
-            <a
-              href="https://github.com/brandaorichard"
-              aria-label="GitHub"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
-            >
-              <AiFillGithub size={30} />
-            </a>
-            <a
-              href="https://instagram.com/brandaojpg"
-              aria-label="Instagram"
-              className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
-            >
-              <AiFillInstagram size={30} />
-            </a>
+          <ul className="flex gap-5 flex-wrap">
+            <li>
+              <a
+                href="https://github.com/brandaorichard"
+                aria-label="GitHub"
+                className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+              >
+                <AiFillGithub size={30} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/brandaojpg"
+                aria-label="Instagram"
+                className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+              >
+                <AiFillInstagram size={30} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ricardo-brandao-dev/"
+                aria-label="LinkedIn"
+                className="text-gray-200 flex items-center justify-center w-10 h-10 rounded-full"
+              >
+                <AiFillLinkedin size={30} />
+              </a>
+            </li>
           </ul>
             </div>
           </div>
