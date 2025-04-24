@@ -2,6 +2,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import spotify from "../assets/images/spotify.png";
+import todo1 from "../assets/images/todo1.png";
 import weatherapp from "../assets/images/weatherapp.png";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -10,16 +11,24 @@ import { FiChevronDown } from "react-icons/fi";
 const projects = [
   {
     title: "Spotify Clone App",
-    desc: "Full Stack Spotify Clone: NextJS, React, Stripe, Supabase, PostgreSQL, Tailwind",
+    desc: "A full stack Spotify clone application that replicates core features of Spotify.",
     devstack: "MongoDB, Express, React, Node.js",
-    link: "https://vercel.com/meuapp",
     git: "https://github.com/brandaorichard/Fullstack-Spotify-Clone",
     src: spotify,
     type: "FullStack",
   },
   {
+    title: "To-do App",
+    desc: "A fullstack project developed with the MERN stack that allows users to create, list, and manage tasks in a simple and efficient way.",
+    devstack: "React, TailwindCSS, Node.js, Express, MongoDB",
+    link: "https://to-do-app-x9bi.onrender.com",
+    git: "https://github.com/brandaorichard/to-do-app",
+    src: todo1,
+    type: "FullStack",
+  },
+  {
     title: "Weather App 🌤️",
-    desc: "Weather App simples utilizando HTML, CSS e JavaScript. Consome a API do OpenWeatherMap para exibir temperatura, umidade e velocidade do vento de qualquer cidade pesquisada.",
+    desc: "A simple Weather App that uses the OpenWeatherMap API to display temperature, humidity, and wind speed for any searched city.",
     devstack: "HTML, CSS, JavaScript",
     link: "#",
     git: "https://github.com/brandaorichard/weather-app",
