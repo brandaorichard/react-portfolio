@@ -7,6 +7,7 @@ import weatherapp from "../assets/images/weatherapp.png";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
+import claropage from "../assets/images/claropage1.png"
 
 const projects = [
   {
@@ -16,6 +17,15 @@ const projects = [
     git: "https://github.com/brandaorichard/Fullstack-Spotify-Clone",
     src: spotify,
     type: "FullStack",
+  },
+  {
+    title: "Claro Landing Page",
+    desc: "Interactive landing page for Claro offers, featuring plan selection, smartphones, and a form integrated with Google Forms.",
+    devstack: "Built with ReactJS and Tailwind CSS.",
+    link: "https://claro-landingpage.vercel.app",
+    git: "https://github.com/brandaorichard/claro-landingpage",
+    src: claropage,
+    type: "Frontend",
   },
   {
     title: "To-do App",
