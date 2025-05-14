@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
 import claropage from "../assets/images/claropage1.png"
+import appImg from "../assets/images/app-img.png"
 
 const projects = [
   {
@@ -25,6 +26,15 @@ const projects = [
     link: "https://claro-landingpage.vercel.app",
     git: "https://github.com/brandaorichard/claro-landingpage",
     src: claropage,
+    type: "Frontend",
+  },
+  {
+    title: "Petshop Landingpage",
+    desc: "Modern and responsive landing page for pet shops, built with Next.js, React, TypeScript, and Tailwind CSS. Showcase your services, customer testimonials, partner brands, and make WhatsApp contact easy—all with a professional and attractive design.",
+    devstack: "Built with Next.js and Tailwind CSS.",
+    link: "https://petshop-landingpage.vercel.app/",
+    git: "https://github.com/brandaorichard/petshop-landingpage",
+    src: appImg,
     type: "Frontend",
   },
   {
