@@ -29,7 +29,7 @@ const projects = [
     type: "Frontend",
   },
   {
-    title: "Petshop Landingpage",
+    title: "Petshop Landing Page",
     desc: "Modern and responsive landing page for pet shops, built with Next.js, React, TypeScript, and Tailwind CSS. Showcase your services, customer testimonials, partner brands, and make WhatsApp contact easy—all with a professional and attractive design.",
     devstack: "Built with Next.js and Tailwind CSS.",
     link: "https://petshop-landingpage.vercel.app/",
