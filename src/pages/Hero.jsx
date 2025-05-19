@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profpic from "../assets/images/profpic.jpeg";
+import profpic from "../assets/images/profpicc.jpg";
 
 export const Hero = () => {
   return (
@@ -24,7 +24,7 @@ export const Hero = () => {
             <img
               src={profpic}
               alt="Ricardo Brandao"
-              className="w-[250px] relative z-10 rounded-full border border-gray-800"
+              className="w-[275px] h-[275px] object-cover relative z-10 rounded-full border border-gray-800"
             />
           </motion.div>
 
