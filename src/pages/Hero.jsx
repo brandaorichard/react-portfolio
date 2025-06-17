@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profpic from "../assets/images/profpicc.jpg";
+import profpic from "../assets/images/profile.jpg";
 
 export const Hero = () => {
   return (
